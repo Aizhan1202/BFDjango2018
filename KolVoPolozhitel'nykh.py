@@ -1,8 +1,8 @@
-n = int(input())
-s = 0
-a = list(map(n, input().split()))
-for i in range(0, n):
-    if a[i] > 0:
-        s = s + 1
+a = int(input())
+b = list(map(int, input().split()))
+k = 0
+for elem in b:
+    if elem > 0:
+        k += 1
 
-print(s)
+print(k)
