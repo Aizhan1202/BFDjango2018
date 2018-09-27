@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}
+<h1 style="font-style: italic;"> Completed tasks in "List 1" </h1>
+{% endblock %}
+
+{% block body %}
+    <table class="text">
+
+        <tr>
+            <td><a href="">{{task.title}}</a></td>
+            <td>{{task.created}}</td>
+            <td>{{task.due_on}}</td>
+            <td>{{task.owner}}</td>
+            <td><button class="button10">{% if task.mark %}
+                Done
+            {% else %}
+                Not Done
+            {% endif %}</button></td>
+        </tr>
+
+    </table>
+{% endblock %}
