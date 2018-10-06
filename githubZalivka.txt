@@ -1,0 +1,475 @@
+Microsoft Windows [Version 10.0.16299.431]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2017. Все права защищены.
+
+C:\Users\User>cd Desktop
+
+C:\Users\User\Desktop>cd django
+
+C:\Users\User\Desktop\django>git init
+Initialized empty Git repository in C:/Users/User/Desktop/django/.git/
+
+C:\Users\User\Desktop\django>git remote add origin
+
+C:\Users\User\Desktop\django>git remote add origin https://github.com/Aizhan1202/BFDjango2018.git
+
+C:\Users\User\Desktop\django>cd TODO
+
+C:\Users\User\Desktop\django\TODO>git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../Bol'she.py
+        ../ChetEl
+        ../ChetnyeChisla.py
+        ../Deliteli.py
+        ../DvLog.py
+        ../Gipotenuza.py
+        ../HackerRankHW1/
+        ../KolVoPolozhitel'nykh.py
+        ../KolvoDel.py
+        ../Kvadrat.py
+        ../MKAD.py
+        ../Massiv.py
+        ../Maximum.py
+        ../MinDel.py
+        ../MinDelitel'.py
+        ../Nuli.py
+        ../Ostatok.py
+        ../SledPred.py
+        ../SpisokKvd.py
+        ../SpisokStepeney.py
+        ../SummaChisel.py
+        ../SummaSta.py
+        ./
+        ../TochnayaStepen'.py
+        ../Yabloki.py
+        ../Yabloki2.py
+        ../Znak.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\User\Desktop\django\TODO>cd ..
+
+C:\Users\User\Desktop\django>git add TODO
+
+C:\Users\User\Desktop\django>git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   TODO/.gitignore
+        new file:   TODO/.idea/TODO.iml
+        new file:   TODO/.idea/misc.xml
+        new file:   TODO/.idea/modules.xml
+        new file:   TODO/.idea/vcs.xml
+        new file:   TODO/.idea/workspace.xml
+        new file:   TODO/TODO_ClassDiagramm.tcuml
+        new file:   TODO/TodoProject/TodoProject/__init__.py
+        new file:   TODO/TodoProject/TodoProject/__pycache__/__init__.cpython-36.pyc
+        new file:   TODO/TodoProject/TodoProject/__pycache__/settings.cpython-36.pyc
+        new file:   TODO/TodoProject/TodoProject/__pycache__/urls.cpython-36.pyc
+        new file:   TODO/TodoProject/TodoProject/__pycache__/wsgi.cpython-36.pyc
+        new file:   TODO/TodoProject/TodoProject/settings.py
+        new file:   TODO/TodoProject/TodoProject/urls.py
+        new file:   TODO/TodoProject/TodoProject/views.py
+        new file:   TODO/TodoProject/TodoProject/wsgi.py
+        new file:   TODO/TodoProject/db.sqlite3
+        new file:   TODO/TodoProject/main/__init__.py
+        new file:   TODO/TodoProject/main/__pycache__/__init__.cpython-36.pyc
+        new file:   TODO/TodoProject/main/__pycache__/admin.cpython-36.pyc
+        new file:   TODO/TodoProject/main/__pycache__/models.cpython-36.pyc
+        new file:   TODO/TodoProject/main/__pycache__/urls.cpython-36.pyc
+        new file:   TODO/TodoProject/main/__pycache__/views.cpython-36.pyc
+        new file:   TODO/TodoProject/main/admin.py
+        new file:   TODO/TodoProject/main/apps.py
+        new file:   TODO/TodoProject/main/migrations/0001_initial.py
+        new file:   TODO/TodoProject/main/migrations/__init__.py
+        new file:   TODO/TodoProject/main/migrations/__pycache__/0001_initial.cpython-36.pyc
+        new file:   TODO/TodoProject/main/migrations/__pycache__/__init__.cpython-36.pyc
+        new file:   TODO/TodoProject/main/models.py
+        new file:   TODO/TodoProject/main/templates/base.html
+        new file:   TODO/TodoProject/main/templates/completed_todo_list.html
+        new file:   TODO/TodoProject/main/templates/todo_list.html
+        new file:   TODO/TodoProject/main/tests.py
+        new file:   TODO/TodoProject/main/urls.py
+        new file:   TODO/TodoProject/main/views.py
+        new file:   TODO/TodoProject/manage.py
+        new file:   TODO/unnamed.patch
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Bol'she.py
+        ChetEl
+        ChetnyeChisla.py
+        Deliteli.py
+        DvLog.py
+        Gipotenuza.py
+        HackerRankHW1/
+        KolVoPolozhitel'nykh.py
+        KolvoDel.py
+        Kvadrat.py
+        MKAD.py
+        Massiv.py
+        Maximum.py
+        MinDel.py
+        MinDelitel'.py
+        Nuli.py
+        Ostatok.py
+        SledPred.py
+        SpisokKvd.py
+        SpisokStepeney.py
+        SummaChisel.py
+        SummaSta.py
+        TochnayaStepen'.py
+        Yabloki.py
+        Yabloki2.py
+        Znak.py
+
+
+C:\Users\User\Desktop\django>git commit -m "TODO Project"
+[master (root-commit) 368534f] TODO Project
+ 38 files changed, 5189 insertions(+)
+ create mode 100644 TODO/.gitignore
+ create mode 100644 TODO/.idea/TODO.iml
+ create mode 100644 TODO/.idea/misc.xml
+ create mode 100644 TODO/.idea/modules.xml
+ create mode 100644 TODO/.idea/vcs.xml
+ create mode 100644 TODO/.idea/workspace.xml
+ create mode 100644 TODO/TODO_ClassDiagramm.tcuml
+ create mode 100644 TODO/TodoProject/TodoProject/__init__.py
+ create mode 100644 TODO/TodoProject/TodoProject/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 TODO/TodoProject/TodoProject/__pycache__/settings.cpython-36.pyc
+ create mode 100644 TODO/TodoProject/TodoProject/__pycache__/urls.cpython-36.pyc
+ create mode 100644 TODO/TodoProject/TodoProject/__pycache__/wsgi.cpython-36.pyc
+ create mode 100644 TODO/TodoProject/TodoProject/settings.py
+ create mode 100644 TODO/TodoProject/TodoProject/urls.py
+ create mode 100644 TODO/TodoProject/TodoProject/views.py
+ create mode 100644 TODO/TodoProject/TodoProject/wsgi.py
+ create mode 100644 TODO/TodoProject/db.sqlite3
+ create mode 100644 TODO/TodoProject/main/__init__.py
+ create mode 100644 TODO/TodoProject/main/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 TODO/TodoProject/main/__pycache__/admin.cpython-36.pyc
+ create mode 100644 TODO/TodoProject/main/__pycache__/models.cpython-36.pyc
+ create mode 100644 TODO/TodoProject/main/__pycache__/urls.cpython-36.pyc
+ create mode 100644 TODO/TodoProject/main/__pycache__/views.cpython-36.pyc
+ create mode 100644 TODO/TodoProject/main/admin.py
+ create mode 100644 TODO/TodoProject/main/apps.py
+ create mode 100644 TODO/TodoProject/main/migrations/0001_initial.py
+ create mode 100644 TODO/TodoProject/main/migrations/__init__.py
+ create mode 100644 TODO/TodoProject/main/migrations/__pycache__/0001_initial.cpython-36.pyc
+ create mode 100644 TODO/TodoProject/main/migrations/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 TODO/TodoProject/main/models.py
+ create mode 100644 TODO/TodoProject/main/templates/base.html
+ create mode 100644 TODO/TodoProject/main/templates/completed_todo_list.html
+ create mode 100644 TODO/TodoProject/main/templates/todo_list.html
+ create mode 100644 TODO/TodoProject/main/tests.py
+ create mode 100644 TODO/TodoProject/main/urls.py
+ create mode 100644 TODO/TodoProject/main/views.py
+ create mode 100644 TODO/TodoProject/manage.py
+ create mode 100644 TODO/unnamed.patch
+
+C:\Users\User\Desktop\django>git push origin master
+fatal: AggregateException encountered.
+   Произошла одна или несколько ошибок.
+Username for 'https://github.com': Aizhan1202
+Password for 'https://Aizhan1202@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Aizhan1202/BFDjango2018.git/'
+
+C:\Users\User\Desktop\django>git push origin master
+fatal: AggregateException encountered.
+   Произошла одна или несколько ошибок.
+Username for 'https://github.com': Aizhan1202
+Password for 'https://Aizhan1202@github.com':
+To https://github.com/Aizhan1202/BFDjango2018.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Aizhan1202/BFDjango2018.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\User\Desktop\django>git pull origin master
+remote: Enumerating objects: 55, done.
+remote: Counting objects: 100% (55/55), done.
+remote: Compressing objects: 100% (51/51), done.
+warning: no common commits
+remote: Total 55 (delta 1), reused 55 (delta 1), pack-reused 0
+Unpacking objects: 100% (55/55), done.
+From https://github.com/Aizhan1202/BFDjango2018
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+fatal: refusing to merge unrelated histories
+
+C:\Users\User\Desktop\django>git push origin master
+fatal: AggregateException encountered.
+   Произошла одна или несколько ошибок.
+Username for 'https://github.com': Aizhan1202
+Password for 'https://Aizhan1202@github.com':
+To https://github.com/Aizhan1202/BFDjango2018.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Aizhan1202/BFDjango2018.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\User\Desktop\django>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+C:\Users\User\Desktop\django>git pull origin master --allow-unrelated-histories
+From https://github.com/Aizhan1202/BFDjango2018
+ * branch            master     -> FETCH_HEAD
+error: The following untracked working tree files would be overwritten by merge:
+        Bol'she.py
+        ChetEl
+        ChetnyeChisla.py
+        Deliteli.py
+        DvLog.py
+        Gipotenuza.py
+        HackerRankHW1/Arithm.py
+        HackerRankHW1/Division.py
+        HackerRankHW1/FindAngle.py
+        HackerRankHW1/FindStr.py
+        HackerRankHW1/Function.py
+        HackerRankHW1/HelloWorld.py
+        HackerRankHW1/IfElse.py
+        HackerRankHW1/ListCompr.py
+        HackerRankHW1/Loops.py
+        HackerRankHW1/Mutations.py
+        HackerRankHW1/Name.py
+        HackerRankHW1/NestedLists.py
+        HackerRankHW1/Percentage.py
+        HackerRankHW1/PhoneNumber.py
+        HackerRankHW1/PrintFunc.py
+        HackerRankHW1/RunnerUpScore.py
+        HackerRankHW1/SplitJoin.py
+        HackerRankHW1/StrFormatting.py
+        HackerRankHW1/StrValid.py
+        HackerRankHW1/SwapCase.py
+        HackerRankHW1/TextAlign.py
+        HackerRankHW1/TextWrap.py
+        HackerRankHW1/Triangle.py
+        HackerRankHW1/Tuples.py
+        KolVoPolozhitel'nykh.py
+        KolvoDel.py
+        Kvadrat.py
+        MKAD.py
+        Massiv.py
+        Maximum.py
+        MinDel.py
+        MinDelitel'.py
+        Nuli.py
+        Ostatok.py
+        SledPred.py
+        SpisokKvd.py
+        SpisokStepeney.py
+        SummaChisel.py
+        SummaSta.py
+        TochnayaStepen'.py
+        Yabloki.py
+        Yabloki2.py
+        Znak.py
+Please move or remove them before you merge.
+Aborting
+
+C:\Users\User\Desktop\django>git add .
+warning: LF will be replaced by CRLF in Bol'she.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in ChetnyeChisla.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Deliteli.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in DvLog.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Gipotenuza.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/Arithm.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/Division.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/FindAngle.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/FindStr.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/Function.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/IfElse.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/ListCompr.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/Loops.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/Mutations.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/Name.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/NestedLists.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/Percentage.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/PhoneNumber.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/PrintFunc.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/RunnerUpScore.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/SplitJoin.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/StrFormatting.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/StrValid.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/SwapCase.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/TextAlign.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/TextWrap.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/Triangle.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in HackerRankHW1/Tuples.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in KolVoPolozhitel'nykh.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in KolvoDel.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Kvadrat.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in MKAD.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Massiv.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Maximum.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in MinDel.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in MinDelitel'.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Nuli.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Ostatok.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in SledPred.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in SpisokKvd.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in SpisokStepeney.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in SummaChisel.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in SummaSta.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in TochnayaStepen'.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Yabloki.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Yabloki2.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Znak.py.
+The file will have its original line endings in your working directory.
+
+C:\Users\User\Desktop\django>git commit -m "Todo Project"
+[master 23acbe7] Todo Project
+ 49 files changed, 427 insertions(+)
+ create mode 100644 Bol'she.py
+ create mode 100644 ChetEl
+ create mode 100644 ChetnyeChisla.py
+ create mode 100644 Deliteli.py
+ create mode 100644 DvLog.py
+ create mode 100644 Gipotenuza.py
+ create mode 100644 HackerRankHW1/Arithm.py
+ create mode 100644 HackerRankHW1/Division.py
+ create mode 100644 HackerRankHW1/FindAngle.py
+ create mode 100644 HackerRankHW1/FindStr.py
+ create mode 100644 HackerRankHW1/Function.py
+ create mode 100644 HackerRankHW1/HelloWorld.py
+ create mode 100644 HackerRankHW1/IfElse.py
+ create mode 100644 HackerRankHW1/ListCompr.py
+ create mode 100644 HackerRankHW1/Loops.py
+ create mode 100644 HackerRankHW1/Mutations.py
+ create mode 100644 HackerRankHW1/Name.py
+ create mode 100644 HackerRankHW1/NestedLists.py
+ create mode 100644 HackerRankHW1/Percentage.py
+ create mode 100644 HackerRankHW1/PhoneNumber.py
+ create mode 100644 HackerRankHW1/PrintFunc.py
+ create mode 100644 HackerRankHW1/RunnerUpScore.py
+ create mode 100644 HackerRankHW1/SplitJoin.py
+ create mode 100644 HackerRankHW1/StrFormatting.py
+ create mode 100644 HackerRankHW1/StrValid.py
+ create mode 100644 HackerRankHW1/SwapCase.py
+ create mode 100644 HackerRankHW1/TextAlign.py
+ create mode 100644 HackerRankHW1/TextWrap.py
+ create mode 100644 HackerRankHW1/Triangle.py
+ create mode 100644 HackerRankHW1/Tuples.py
+ create mode 100644 KolVoPolozhitel'nykh.py
+ create mode 100644 KolvoDel.py
+ create mode 100644 Kvadrat.py
+ create mode 100644 MKAD.py
+ create mode 100644 Massiv.py
+ create mode 100644 Maximum.py
+ create mode 100644 MinDel.py
+ create mode 100644 MinDelitel'.py
+ create mode 100644 Nuli.py
+ create mode 100644 Ostatok.py
+ create mode 100644 SledPred.py
+ create mode 100644 SpisokKvd.py
+ create mode 100644 SpisokStepeney.py
+ create mode 100644 SummaChisel.py
+ create mode 100644 SummaSta.py
+ create mode 100644 TochnayaStepen'.py
+ create mode 100644 Yabloki.py
+ create mode 100644 Yabloki2.py
+ create mode 100644 Znak.py
+
+C:\Users\User\Desktop\django>git push origin master
+fatal: AggregateException encountered.
+   Произошла одна или несколько ошибок.
+Username for 'https://github.com': Aizhan1202
+Password for 'https://Aizhan1202@github.com':
+To https://github.com/Aizhan1202/BFDjango2018.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Aizhan1202/BFDjango2018.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\User\Desktop\django>git pull origin master --allow-unrelated-histories
+From https://github.com/Aizhan1202/BFDjango2018
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+
+C:\Users\User\Desktop\django>git push origin master
+fatal: AggregateException encountered.
+   Произошла одна или несколько ошибок.
+Username for 'https://github.com': Aizhan1202
+Password for 'https://Aizhan1202@github.com':
+Counting objects: 48, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (46/46), done.
+Writing objects: 100% (48/48), 50.36 KiB | 0 bytes/s, done.
+Total 48 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+To https://github.com/Aizhan1202/BFDjango2018.git
+   20aadff..d6ce3ee  master -> master
+
+C:\Users\User\Desktop\django>
